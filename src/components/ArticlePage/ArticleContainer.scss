@@ -1,0 +1,61 @@
+.article {
+    width: 100%;
+    padding: 0 20px;
+    &-title {
+        font-weight: 600;
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    &-url {
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(165, 165, 165);
+        margin-top: 10px;
+    }
+
+    &-row {
+        margin-top: 20px;
+        @include FlexBetween();
+        flex-direction: row;
+    }
+
+    &-author {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &-date {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &-com-count {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.comment {
+    padding: 0 20px;
+    margin-bottom: 50px;
+
+    &-item {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+        background-color: rgb(209, 209, 209);
+        padding: 20px;
+
+        &-by {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        &-com {
+            margin-top: 10px;
+            font-size: 400px;
+            font-size: 16px;
+        }
+    }
+}

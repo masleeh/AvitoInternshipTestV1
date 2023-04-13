@@ -1,0 +1,11 @@
+.news {
+    &-item {
+        &-row {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            column-gap: 20px;
+            max-width: 50%;
+        }
+    }
+}
